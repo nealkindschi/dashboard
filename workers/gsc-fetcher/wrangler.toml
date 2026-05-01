@@ -1,0 +1,11 @@
+name = "gsc-fetcher"
+main = "index.ts"
+compatibility_date = "2026-05-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "seo-dashboard-db"
+database_id = "02aea596-de52-4e3e-9bea-82a2cd6328d8"
+
+[triggers]
+crons = ["0 1 * * *"]
