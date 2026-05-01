@@ -1,7 +1,5 @@
+import DashboardShell from './components/layout/DashboardShell';
+
 export default function App() {
-  return (
-    <main>
-      <h1>SEO Analytics Dashboard</h1>
-    </main>
-  );
+  return <DashboardShell />;
 }
