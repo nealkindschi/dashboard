@@ -3,10 +3,13 @@ pages_build_output_dir = "./dist"
 compatibility_date = "2026-05-01"
 
 [[d1_databases]]
-binding = "seo_dashboard_db"
+binding = "DB"
 database_name = "seo-dashboard-db"
 database_id = "02aea596-de52-4e3e-9bea-82a2cd6328d8"
 
-[[durable_objects.bindings]]
-name = "COUNTER"
-class_name = "Counter"
+[ai]
+binding = "AI"
+
+[[env.production.r2_buckets]]
+binding = "CRAWL_BUCKET"
+bucket_name = "seo-crawls"
