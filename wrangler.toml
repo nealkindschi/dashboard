@@ -10,6 +10,14 @@ database_id = "02aea596-de52-4e3e-9bea-82a2cd6328d8"
 [ai]
 binding = "AI"
 
+[[env.production.d1_databases]]
+binding = "DB"
+database_name = "seo-dashboard-db"
+database_id = "02aea596-de52-4e3e-9bea-82a2cd6328d8"
+
+[env.production.ai]
+binding = "AI"
+
 [[env.production.r2_buckets]]
 binding = "CRAWL_BUCKET"
 bucket_name = "seo-crawls"
